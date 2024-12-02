@@ -32,5 +32,5 @@ const selectDifferentDrivers = function(drivers, selectFunction) {
 };
 
 // Call the functions and log the output
-console.log(selectDifferentDrivers(drivers, returnFirstTwoDrivers)); // Output: ['Antonia', 'Nuru']
-console.log(selectDifferentDrivers(drivers, returnLastTwoDrivers));  // Output: ['Amari', 'Mo']
+console.log(selectDifferentDrivers(drivers, returnFirstTwoDrivers)); 
+console.log(selectDifferentDrivers(drivers, returnLastTwoDrivers)); 
